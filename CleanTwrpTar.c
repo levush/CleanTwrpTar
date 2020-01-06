@@ -67,7 +67,11 @@ const char strings_file_header[8] = {'T','C','9','9','\0','\0','\0','\n'};
 #define STRINGS_FILE_END ';'
 
 // Help Message.
-#define HELP_MESSAGE "this is the help message \n"
+//#define HELP_MESSAGE "this is the help message \n"
+#define HELP_MESSAGE "Usage information\n \
+CleanTwrpTar [ARGUMENTS] [input-file] [output-file]\n \
+For now, CleanTwrpTar -v input-file.tar output-file.tar will work just fine.\n \
+The maximum filesize this program can currently handle is 2GB. \n"
 
 //Variables and flags
 bool verbose = false;                   // -v --verbose             || Half setup
